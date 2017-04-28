@@ -18,6 +18,7 @@ public class WindowHandle {
 		driver.get("https://www.engprod-charter.net/");
 		Thread.sleep(2);
 		Runtime.getRuntime().exec("E:\\Seleium_data\\Auto_IT_Selenium\\windowhandle.exe");
+		System.out.println("Window Handle");
 
 	}
 
